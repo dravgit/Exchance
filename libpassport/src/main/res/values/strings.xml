@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SampleEPassport</string>
+    <string name="nfc_not_support">Device not support NFC</string>
+    <string name="msg_nfcon">Please turn on NFC</string>msg_nfcon
+    <string name="msg_nfc_off">NFC off</string>msg_nfcoff
+</resources>

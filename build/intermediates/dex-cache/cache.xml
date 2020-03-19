@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-27.1.1_4bc9c0e7b1617f54d3e77b8d87e3d3173fc7add0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/20961e93e83f03fdcf3c118aead3489f3e98017f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_307e865e9f6b7345cf94a44914be6149bdb72da7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/cc6711f56425727d92437fb405c528bf45f399a6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7038c6d960d3fe26fd41bc509f256c9692d886ce">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69c001d6e9df20ae71cb09de6dfd7edd5a1d8d74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/74344fb373f33d5c63116f79c98da2e07fddd0bb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_77ba82688e1fa6300dd5efaade3c9eaa4ad382d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/d0e1ac886971fa749d1033fa17747fc41d391387/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9068775bb0941e0fc1d4ff9adbf5d73475794955">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b2978ee5ddaff05f281007506cbd8631535584eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.1.0_b40340bbb639b59c93c9d2abeb81ad4898454799/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c0b73ccac1f1cb9402c5f05175bf4ccbaaa944ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.1.0_02865b0f41b6803473daa5d5eaa35c33997e800b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/f2ea658103d0a1af21e00e804133b5b6afc21595/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d2de9dc4cefbcbfbd7b0cac630a7d9077acf0567">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8cf1a4dacd970fc4351d99b9d4bdc4f4a75ccbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/486c454e154eb97bf72c332a8697c2976c469038/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1d8443ce647a37fa835c90f4321e71a1e04c34be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/393ea2e37548cb7ca8e4b7ac80b47f54ba72e487/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_31c12eb1cc98b529f5caf88f515e7d86975ec23d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/a5dbbd8343e1bfb7cb3080f18b66fc6db27d2e6c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f8d203bd9212c904139a4f70d40804210beec63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16a34c4d9878b7a0e7f9833b31efb077af82d1d3">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_db1608cfe4d45f3e7a5dead0e511f791f2e8adcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/Downloads/AnylineSDK_Android_3/AnylineSDK-Examples/AnylineSDK-Examples-Source/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/miiw/Downloads/AnylineSDK_Android_3/AnylineSDK-Examples/AnylineSDK-Examples-Source/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8dfa3fc2139e79cba2fdbd7b38bb6b43301d9143/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c90a3cb364eb6e27fd08a0eef93ad343dc0668e4">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_db1608cfe4d45f3e7a5dead0e511f791f2e8adcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/fc1eb9c78dd88621ea666e16a6d65b80521fc5d6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da72bb9901a42b352a490cda06bafa1bea7bdb97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/bd6bde9d730bd9c7906afb0fe9d09741b3beb212/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ac3445cdeef8798375b46ebeeccde70225b507b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/a2fbb674dc213d1d4e28e3da9ffbe089039bb7cb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e9fd4f434c262d4fc7b094f515b0d3315996897a">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1033a77bc2eb8610bbffa2effd0d843af9d2a062/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/Downloads/AnylineSDK_Android_3/AnylineSDK-Examples/AnylineSDK-Examples-Source/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="783a5d306e16871fc0e57dd7274198e4527f0ea5">
+        <dex dex="/Users/miiw/Downloads/AnylineSDK_Android_3/AnylineSDK-Examples/AnylineSDK-Examples-Source/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_96d5e525dbccb1c85f3f16204fc6e55e1a1718fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/52f9b2bfe6493a3aa80670bd20dd0fc8c65b1c9a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b40c219ff1b49c309e990fc85777fcbb84f63b7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/3c6721c16251bca655d988f8f129040a74fbf4ce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ae6d33f37143b08cd8c477c9e348d61ef7ed7eba">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_48bfccc8b48ac0a097b38ccb1a5054edfca90e0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/dd683333c36c585e48a7104e452928bf59703206/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4d2b8ad415048e88b41ba4afcaafe36150e69b8c">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca6f86413c38762070a68727f5d9e18dacfdbd51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c0b73ccac1f1cb9402c5f05175bf4ccbaaa944ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/890662122af4dc53ff2613550b1c27c59b5a3c7d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e43f626ff9b0e7a6bb52f29892a9f98ac0789ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/cae8fe6cf8789c1724692e6e4bb6b13d6631eba7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca54333f7f83cc88d42c5b05d4f58e39555c77ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/ac57d0634fff86f4479defdd118a0e85707c8988/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb1e049b3e552164e4552353b575f57cce9d6d65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/miiw/.android/build-cache/969a166aa3a21d4c788ebe82bd9db92441c00233/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="/Users/miiw/Desktop/OCR/TssDemoV1/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb6ddd1a228f5cac5bf1620da5c925cd10916dc9/classes.dex" />
+    </item>
+
+</items>

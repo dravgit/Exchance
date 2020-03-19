@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/linLeft"
+            android:background="@drawable/bg_left"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+                <TextView
+                    android:textSize="10pt"
+                    android:textColor="#fff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Thin Solution Systems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linCen"
+            android:padding="40dp"
+            android:background="@drawable/bg_cen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/linRight"
+            android:layout_toRightOf="@id/linLeft">
+
+            <LinearLayout
+                android:paddingRight="200dp"
+                android:paddingLeft="200dp"
+                android:id="@+id/linCen1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/m_idcard"
+                    android:onClick="showICCard"
+                    app:srcCompat="@drawable/id0card"
+                    style="@style/backgroundBtnCen" />
+
+                <ImageButton
+                    android:id="@+id/m_passport"
+                    android:onClick="showPassport"
+                    app:srcCompat="@drawable/passport"
+                    style="@style/backgroundBtnCen" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="200dp"
+                android:paddingLeft="200dp"
+                android:id="@+id/linCen2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/linCen1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/m_driver"
+                    android:onClick="showDriver"
+                    app:srcCompat="@drawable/cdriver"
+                    style="@style/backgroundBtnCen" />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/m_visa"
+                    android:onClick="showVisa"
+                    app:srcCompat="@drawable/visa"
+                    style="@style/backgroundBtnCen" />
+
+                <ImageButton
+                    android:id="@+id/m_printer"
+                    android:onClick="showPrinter"
+                    app:srcCompat="@drawable/printer"
+                    style="@style/backgroundBtnCen" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/linRight"
+            android:background="@drawable/bg_right"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+            <ScrollView
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageButton
+                        android:src="@drawable/c960f"
+                        style="@style/backgroundBtnRight" />
+                    <ImageButton
+                        style="@style/backgroundBtnRight" />
+                    <ImageButton
+                        style="@style/backgroundBtnRight" />
+                    <ImageButton
+                        style="@style/backgroundBtnRight" />
+                    <ImageButton
+                        style="@style/backgroundBtnRight" />
+                    <ImageButton
+                        style="@style/backgroundBtnRight" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

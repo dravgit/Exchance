@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/viewCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/imgBgPass"
+            android:src="@drawable/passports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+        <ImageView
+            android:id="@+id/imgEFaces"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="103dp"
+            android:layout_width="179dp"
+            android:layout_height="229dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+        <TextView
+            android:id="@+id/txtType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="53dp"
+            android:layout_marginLeft="200dp"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEDocNOs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="490dp"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/editETitles"
+            android:layout_marginTop="151dp"
+            android:layout_marginLeft="242dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEFirstnames"
+            android:layout_marginTop="186dp"
+            android:layout_marginLeft="242dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editELastnames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="111dp"
+            android:layout_marginLeft="242dp"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEDOBOris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="358dp"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/editEDocIDs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="478dp"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEPOBs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="478dp"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEDOBs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="229dp"
+            android:layout_marginLeft="360dp"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEIssuerAuthors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="478dp"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEGenders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="249dp"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEDOIs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="305dp"
+            android:layout_marginLeft="249dp"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:id="@+id/editEDOEOris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="345dp"
+            android:layout_marginLeft="249dp"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="KeyBAC" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/RdbYes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/RdbNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No" />
+                <RadioButton
+                    android:id="@+id/RdbOCR"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="OCR" />
+            </RadioGroup>
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/layoutAuthen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="หมายเลขพาสปอร์ต" />
+                    <EditText
+                        android:id="@+id/editNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="AA1234567" />
+                </LinearLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:textAlignment="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:text="วันเกิด" />
+
+                            <DatePicker
+                                android:id="@+id/dpDOB"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:datePickerMode="calendar"
+                                android:calendarViewShown="false"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:textAlignment="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:text="วันหมดอายุ" />
+
+                            <DatePicker
+                                android:id="@+id/dpDOE"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:datePickerMode="calendar"
+                                android:calendarViewShown="false" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+        <ScrollView
+            android:id="@+id/layoutDetailOld"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="รูปหน้า" />
+
+                    <ImageView
+                        android:id="@+id/imgEFace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@android:drawable/sym_def_app_icon" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MRZ" />
+
+                    <EditText
+                        android:id="@+id/editEMRZ"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="หมายเลขพาสปอร์ต" />
+
+                    <EditText
+                        android:id="@+id/editEDocNO"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="หมายเลขบัตรประชาชน" />
+
+                    <EditText
+                        android:id="@+id/editEDocID"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="เพศ" />
+
+                    <EditText
+                        android:id="@+id/editEGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="คำนำหน้าชื่อ" />
+
+                    <EditText
+                        android:id="@+id/editETitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="ชื่อจริง" />
+
+                    <EditText
+                        android:id="@+id/editEFirstname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="นามสกุล" />
+
+                    <EditText
+                        android:id="@+id/editELastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="วันเกิด 6 หลัก" />
+
+                    <EditText
+                        android:id="@+id/editEDOBOri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="วันเกิด" />
+
+                    <EditText
+                        android:id="@+id/editEDOB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="วันที่ออก" />
+
+                    <EditText
+                        android:id="@+id/editEDOI"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="วันหมดอายุ 6 หลัก" />
+
+                    <EditText
+                        android:id="@+id/editEDOEOri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="วันหมดอายุ" />
+
+                    <EditText
+                        android:id="@+id/editEDOE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="สัญชาติ" />
+
+                    <EditText
+                        android:id="@+id/editENation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="ประเทศที่ออก" />
+
+                    <EditText
+                        android:id="@+id/editEIssuer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="ออกให้โดย" />
+
+                    <EditText
+                        android:id="@+id/editEIssuerAuthor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="สถานที่เกิด" />
+
+                    <EditText
+                        android:id="@+id/editEPOB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textColor="@android:color/holo_blue_dark" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

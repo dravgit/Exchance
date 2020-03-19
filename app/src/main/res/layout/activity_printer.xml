@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:id="@+id/main_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selete_printer_gray"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="setGrayOne"
+                    android:text="@string/level1"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="setGrayTwo"
+                    android:text="@string/level2"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="setGrayThree"
+                    android:text="@string/level3"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="setGrayFour"
+                    android:text="@string/level4"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="printText"
+                        android:text="@string/print_text" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="printQRCodeFast"
+                        android:text="@string/print_qr_code" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="spitPaper"
+                        android:text="@string/spit_paper" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="printLittleSize"
+                        android:text="@string/print_small_text" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="printDoubleHigh"
+                        android:text="@string/print_double_high" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="printDoubleWidth"
+                        android:text="@string/print_double_wide" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="printDoubleHighWidth"
+                        android:text="@string/print_double_high_wide" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

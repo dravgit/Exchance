@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/tableLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/m_idcard"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="showICCard"
+                app:srcCompat="@drawable/id0card" />
+
+            <ImageButton
+                android:id="@+id/m_printer"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="showPrinter"
+                app:srcCompat="@drawable/printer"  />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/m_driver"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="showDriver"
+                app:srcCompat="@drawable/cdriver" />
+
+            <ImageButton
+                android:id="@+id/m_passport"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="showPassport"
+                app:srcCompat="@drawable/passport" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/m_visa"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="showVisa"
+                app:srcCompat="@drawable/visa" />
+
+            <ImageButton
+                android:id="@+id/m_mastercard"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="showMaster"
+                app:srcCompat="@drawable/imastercard" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="290dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false" />
+</RelativeLayout>

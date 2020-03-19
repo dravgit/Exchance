@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.anyline:anylinesdk:3.26.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anylinesdk-3.26.0.aar/9d0bd6f74bc247982e9c64a9ceb75d35/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anylinesdk-3.26.0.aar/9d0bd6f74bc247982e9c64a9ceb75d35/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.anyline/anylinesdk/3.26.0/6c14795c2f911fe6c7f4ae3bac078a8d8a28a9f8/anylinesdk-3.26.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="201dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/idcard" />
+
+        <ImageView
+            android:id="@+id/iVphoto"
+            android:layout_width="76dp"
+            android:layout_height="81dp"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="115dp"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/tVnameTH"
+            android:layout_width="235dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="bottom"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVlastnameENG"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="92dp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVbirthTH"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="105dp"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVbirthENG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="179dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVfirstnameENG"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="79dp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVreligion"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="157dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tVaddress"
+            android:layout_width="184dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="149dp"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVissueTH"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="175dp"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVissueENG"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="192dp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVexpireTH"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="175dp"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVexpireENG"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="192dp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ic"
+            android:layout_width="262dp"
+            android:layout_height="262dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/ic" />
+
+        <TextView
+            android:id="@+id/tVidcard"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+</FrameLayout>

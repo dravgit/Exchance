@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrintOnline">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="484dp"
+        android:background="@drawable/doc"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="right|center"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iVphoto"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/icon_small_person" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="458dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/name"
+                android:layout_marginTop="105dp"
+                android:textSize="6sp" />
+
+            <TextView
+                android:id="@+id/address2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/tVaddress"
+                android:layout_marginTop="120dp"
+                android:textSize="6sp" />
+
+            <LinearLayout
+                android:id="@+id/tVaddress"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="81dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVaddress2"
+                    android:layout_width="86dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/black"
+                    android:textSize="6sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/name"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="-66dp"
+                android:layout_marginEnd="17dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVidcard2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/imageView"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/black"
+                    android:textSize="6sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/name"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="66dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVnameTH2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="6sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/age"
+                android:layout_width="37dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/tVaddress"
+                android:layout_marginEnd="77dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVbirthTH2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/black"
+                    android:textSize="6sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print" />
+    </LinearLayout>
+</LinearLayout>

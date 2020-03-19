@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="750dp"
+            android:layout_height="460dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/drivercard" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="342dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="321dp"
+            android:layout_marginTop="248dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ic"
+            android:layout_width="262dp"
+            android:layout_height="262dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/magnet" />
+
+        <TextView
+            android:id="@+id/expdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="599dp"
+            android:layout_marginTop="185dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/xid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="550dp"
+            android:layout_marginTop="367dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/xidTh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="432dp"
+            android:layout_marginTop="279dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/bithEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="332dp"
+            android:layout_marginTop="365dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/ExpriEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="602dp"
+            android:layout_marginTop="310dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_marginLeft="302dp"
+            android:layout_marginTop="110dp"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgSex"
+            android:layout_width="175dp"
+            android:layout_height="185dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="202dp" />
+
+    </FrameLayout>
+</FrameLayout>

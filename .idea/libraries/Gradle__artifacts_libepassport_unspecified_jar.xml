@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:libepassport:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/807143e2c339abce0e7d879c24b8e2c4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/807143e2c339abce0e7d879c24b8e2c4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/807143e2c339abce0e7d879c24b8e2c4/jars/libs/jj2000_imageutil.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/807143e2c339abce0e7d879c24b8e2c4/jars/libs/wsq_imageutil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
