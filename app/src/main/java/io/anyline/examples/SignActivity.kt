@@ -5,20 +5,23 @@ import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
-import android.provider.MediaStore
 import android.support.v4.app.ActivityCompat
 import android.support.v7.app.AppCompatActivity
+import android.util.Base64
 import android.util.Log
 import android.view.View
 import android.widget.Toast
 import com.github.gcacace.signaturepad.views.SignaturePad
+import kotlinx.android.synthetic.main.activity_ip_sever.*
 import kotlinx.android.synthetic.main.activity_sign.*
-import org.bouncycastle.asn1.x500.style.RFC4519Style.c
+import kotlinx.android.synthetic.main.dialog_result.*
+import org.json.JSONObject
 import java.io.*
 
 
@@ -52,24 +55,27 @@ class SignActivity : AppCompatActivity() {
         save_btn.setOnClickListener(object : View.OnClickListener {
             override fun onClick(view: View?) {
                 val signatureBitmap: Bitmap = mSignaturePad!!.getSignatureBitmap()
-                val output = Intent()
-                output.putExtra("signature", signatureBitmap)
-                setResult(Activity.RESULT_OK, output)
+                val byteArrayOutputStream = ByteArrayOutputStream()
+                signatureBitmap.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream)
+                val byteArray = byteArrayOutputStream.toByteArray()
+                val encoded: String = Base64.encodeToString(byteArray, Base64.DEFAULT)
+                val jsonObject = JSONObject()
+                try {
+                    jsonObject.put("signature",encoded)
+                } catch (e: java.lang.Exception) {
+                    e.printStackTrace()
+                }
+                val data = Intent()
+                data.putExtra("response", jsonObject.toString())
+                setResult(Activity.RESULT_OK, data)
                 finish()
-//                if (addJpgSignatureToGallery(signatureBitmap)) {
-//                    Toast.makeText(this@SignActivity, "Signature saved into the Gallery", Toast.LENGTH_SHORT).show()
-//                } else {
-//                    Toast.makeText(this@SignActivity, "Unable to store the signature", Toast.LENGTH_SHORT).show()
-//                }
-//                if (addSvgSignatureToGallery(mSignaturePad!!.signatureSvg)) {
-//                    Toast.makeText(this@SignActivity, "SVG Signature saved into the Gallery", Toast.LENGTH_SHORT).show()
-//                } else {
-//                    Toast.makeText(this@SignActivity, "Unable to store the SVG signature", Toast.LENGTH_SHORT).show()
-//                }
 
             }
         })
     }
+
+
+
     override fun onRequestPermissionsResult(requestCode: Int,
                                             permissions: Array<String?>, grantResults: IntArray) {
         when (requestCode) {
@@ -169,3 +175,4 @@ class SignActivity : AppCompatActivity() {
     }
 
 }
+

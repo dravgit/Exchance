@@ -1,6 +1,7 @@
 package io.anyline.examples;
 
 import android.Manifest;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
 import android.app.ProgressDialog;
@@ -32,8 +33,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.JsonObject;
 import com.google.libepassport.readermanager.DataEPassport;
 import com.google.libepassport.readermanager.EPassportReader;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -56,7 +61,7 @@ public class PassportReader extends ScanningConfigurationActivity {
     private RecyclerView recyclerView;
     private ImageView imageView;
     private TextView confirmationButton;
-
+    private Button btn_response;
     private EPassportReader mEPassportReader;
     public EditText editNO;
     public DatePicker dpDOB,dpDOE;
@@ -166,7 +171,7 @@ public class PassportReader extends ScanningConfigurationActivity {
         setupScanResult();
 
         Button butt = (Button) findViewById(R.id.button);
-
+        Button butt1 = (Button) findViewById(R.id.btn_passport);
         butt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
@@ -185,7 +190,23 @@ public class PassportReader extends ScanningConfigurationActivity {
                 }
             }
         });
-        
+
+        butt1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                JSONObject jsonObject = new JSONObject();
+                try {
+                    jsonObject.put("test","test");
+                    jsonObject.put("test1","test1");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                Intent data = new Intent();
+                data.putExtra("response", jsonObject.toString());
+                setResult(Activity.RESULT_OK, data);
+                finish();
+            }
+        });
+
 
         ///////////////////////////////////////
         editNO = findViewById(R.id.editNo);
