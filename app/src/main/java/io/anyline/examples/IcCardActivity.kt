@@ -68,12 +68,23 @@ class IcCardActivity : BaseActivity1() {
             if(tVnameTH != null && tVidcard != null){
                 val jsonObject = JSONObject()
                 try {
-                    jsonObject.putOpt("name", tVnameTH!!.text.toString())
-                    jsonObject.putOpt("iccardnumber", tVidcard!!.text.toString())
+                    jsonObject.putOpt("idcard", tVidcard!!.text)
+                    jsonObject.putOpt("nameth", tVnameTH!!.text)
+                    jsonObject.putOpt("firstnameeng", tVfirstnameENG!!.text)
+                    jsonObject.putOpt("lastnameeng", tVlastnameENG!!.text)
+                    jsonObject.putOpt("birthth", tVbirthTH!!.text)
+                    jsonObject.putOpt("birtheng", tVbirthENG!!.text)
+                    jsonObject.putOpt("address", tVaddress!!.text)
+                    jsonObject.putOpt("issueth", tVissueTH!!.text)
+                    jsonObject.putOpt("issueeng", tVissueENG!!.text)
+                    jsonObject.putOpt("exprieth", tVexpireTH!!.text)
+                    jsonObject.putOpt("exprieeng", tVexpireENG!!.text)
+                    jsonObject.putOpt("image", pic!!.toString())
                 } catch (e: JSONException) {
                     e.printStackTrace()
                 }
                 val data = Intent()
+                Log.e("response", jsonObject.toString())
                 data.putExtra("response", jsonObject.toString())
                 setResult(Activity.RESULT_OK, data)
                 finish()
@@ -233,9 +244,9 @@ class IcCardActivity : BaseActivity1() {
                         id_card[3] + id_card[4] + "-" + id_card[5] +
                         id_card[6] + id_card[7] + id_card[8] + id_card[9] +
                         "-" + id_card[10] + id_card[11] + "-" + id_card[12]
-                id_card = id_card.substring(0, 11) + "X-XX-X"
+//                id_card = id_card.substring(0, 11) + "X-XX-X"
                 tVidcard!!.text = id_card
-                val engname = jObject.getString("EnglishLastName")
+//                val engname = jObject.getString("EnglishLastName")
                 tVlastnameENG!!.text = jObject.getString("EnglishLastName")
                 val _xx = jObject.getString("BirthDate")
                 //                    String _day = "" + Integer.parseInt(_xx.substring(0, 2));
@@ -286,13 +297,13 @@ class IcCardActivity : BaseActivity1() {
         if (reg == "en") {
             _month_eng = months_eng[date.substring(2, 4).toInt() - 1]
             _year_eng = "" + (date.substring(4, 8).toInt() - 543)
-            _year_eng = _year_eng.substring(0, 2) + "XX"
+//            _year_eng = _year_eng.substring(0, 2) + "XX"
             _birth_eng = "$_day $_month_eng $_year_eng"
             return _birth_eng
         } else if (reg == "th") {
             _month_th = months_th[date.substring(2, 4).toInt() - 1]
             _year_th = date.substring(4, 8)
-            _year_th = _year_th.substring(0, 2) + "XX"
+//            _year_th = _year_th.substring(0, 2) + "XX"
             _birth_th = "$_day $_month_th $_year_th"
             return _birth_th
         }

@@ -32,21 +32,12 @@ class IpSeverActivity : AppCompatActivity(), TinyWebServer.CallListener {
             val intent = Intent(this@IpSeverActivity, IcCardActivity::class.java)
             startActivityForResult(intent,102)
         }
-        else if (methodName.equals(KEY_SWIPECARD)) {
-            val intent = Intent(this@IpSeverActivity, SwipeCardActivity::class.java)
-            startActivityForResult(intent,103)
-        }
         else if (methodName.equals(KEY_PASSPORT)) {
-            val intent = Intent(this@IpSeverActivity, PassportReader::class.java)
-            startActivityForResult(intent,104)
+
         }
         else if (methodName.equals(KEY_CAMERA)) {
             val intent = Intent("android.media.action.IMAGE_CAPTURE")
             startActivityForResult(intent,105)
-        }
-        else if (methodName.equals(KEY_PRINT)) {
-            val intent = Intent(this@IpSeverActivity, PrintActivity::class.java)
-            startActivityForResult(intent,106)
         }
         while (!canResponse) {
             Thread.sleep(1000)

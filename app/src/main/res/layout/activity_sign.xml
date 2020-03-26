@@ -34,18 +34,20 @@
             android:layout_height="match_parent"
             app:penColor="@android:color/black" />
 
-        <ImageButton
+        <Button
+            android:text="CLEAR"
             android:id="@+id/clearsign_btn"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_margin="10dp"
             />
 
         <Button
+            android:text="OK"
             android:id="@+id/save_btn"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_margin="10dp"

@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: artifacts:libepassport:unspecified@jar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/3937222df5aba9c46edc5b285a8b18c0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/3937222df5aba9c46edc5b285a8b18c0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/3937222df5aba9c46edc5b285a8b18c0/jars/libs/jj2000_imageutil.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/3937222df5aba9c46edc5b285a8b18c0/jars/libs/wsq_imageutil.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/942bd9db60ba1c69faf46f81dfca7cb9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/942bd9db60ba1c69faf46f81dfca7cb9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/942bd9db60ba1c69faf46f81dfca7cb9/jars/libs/jj2000_imageutil.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libepassport.aar/942bd9db60ba1c69faf46f81dfca7cb9/jars/libs/wsq_imageutil.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
